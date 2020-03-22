@@ -1,0 +1,4 @@
+function reverse(s) {
+  return (s === '') ? '' : reverse(s.substr(1)) + s.charAt(0);
+}
+console.log(reverse("arun"))
