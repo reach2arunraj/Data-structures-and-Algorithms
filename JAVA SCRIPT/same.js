@@ -25,6 +25,7 @@ function same(arr1, arr2) {
     let frequencycounter1 = {}
     let frequencycounter2 = {}
     for(let val of arr1){
+        // key (A) = value (number || 0) + 1
         frequencycounter1[val] = (frequencycounter1[val] || 0) + 1 
     }
     for(let val of arr2){
