@@ -3,7 +3,7 @@ function maxSumarraySum(arr, num) {
     return null;
   }
   var max = -Infinity;
-  for (var i = 0; i < arr.length - num + 1; i++) {
+  for (var i = 0; i < arr.length - num + 1; i++) { // number of "nums" groups
     var temp = 0;
     for (let j = 0; j < num; j++) {
       temp += arr[i + j];
