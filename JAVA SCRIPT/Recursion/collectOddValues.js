@@ -1,3 +1,5 @@
+//Helper method Recursion
+
 function collectOddValues(arr) {
   let result = [];
   function helper(helperInput) {
@@ -17,6 +19,7 @@ console.log(collectOddValues([1, 2, 3, 4, 5, 6]));
 
 
 
+// Pure Recursion Method
 
 function collectOddValues(arr) {
     let newarr = [];
