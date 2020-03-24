@@ -8,3 +8,14 @@ function countDown(num) {
     countDown(num);
 }
 countDown(10)
+
+
+
+
+function countDown(num) {
+    for(var i = num; i > 0; i--){
+        console.log(i);
+    }
+    console.log("All is Done..!")
+}
+countDown(10)
