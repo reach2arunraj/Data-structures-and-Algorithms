@@ -10,12 +10,6 @@ function numcomp (num1, num2) {
 
 
 function compareByLen(str1, str2) {
-    return str1.length - str2.length;
-}
-["apple", "ball", "cow"].sort(compareByLen) // [ "cow", "ball", "apple" ]
-
-
-function compareByLen(str1, str2) {
     return str2.length - str1.length;
 }
-[ "cow", "ball", "apple" ].sort(compareByLen) // [ "apple", "ball", "cow" ]
+["colt", "steele", "Data structure", "Algorithm"].sort(compareByLen) // [ "Data structure", "Algorithm", "steele", "colt" ]
