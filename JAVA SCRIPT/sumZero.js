@@ -30,5 +30,5 @@ function SumZero(arr) {
 }
 console.log(SumZero([-2, -1, 0, 1, 2]))
 
-// Time Complexity - O(n)
-// Space Complexity - O(1)
+// Time Complexity : O(n)
+// Space Complexity : O(1)
