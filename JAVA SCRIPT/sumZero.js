@@ -11,7 +11,7 @@ function sumZero(arr) {
 console.log(sumZero([-3, -2, -1, 0, 1, 2, 3]))
 
 
-
+// REFACTOR
 
 function SumZero(arr) {
     let left = 0;
@@ -29,3 +29,6 @@ function SumZero(arr) {
     return false
 }
 console.log(SumZero([-2, -1, 0, 1, 2]))
+
+// Time Complexity - O(n)
+// Space Complexity - O(1)
