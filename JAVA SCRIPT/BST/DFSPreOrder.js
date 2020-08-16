@@ -89,6 +89,9 @@ class BinarySearchTree {
         traverse(this.root);
         return data;
     }
+    
+    // DFS Post Order
+    
     DFSPostOrder(){
         var data = [];
         function traverse(node){
@@ -99,6 +102,10 @@ class BinarySearchTree {
         traverse(this.root);
         return data;
     }
+    
+    // DFS Post Order
+    
+    
     DFSInOrder(){
         var data = [];
         function traverse(node){
